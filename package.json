@@ -3,11 +3,7 @@
   "description": "Run D.O.H.: Dojo Objective Harness inside a Grunt task.",
   "version": "0.1.0",
   "homepage": "https://github.com/bugbot/grunt-doh",
-  "author": {
-    "name": "Giampaolo Bellavite",
-    "email": "gp@komoot.de",
-    "url": "http://www.komoot.de"
-  },
+  "author": "Giampaolo Bellavite <gp@komoot.de> (http://www.komoot.de)",
   "repository": {
     "type": "git",
     "url": "git://github.com/bugbot/grunt-doh.git"
@@ -38,5 +34,11 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.5",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "license": "MIT"
 }
